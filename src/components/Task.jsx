@@ -11,7 +11,6 @@ import {
   Alert,
   AlertIcon,
   AlertTitle,
-  AlertDescription,
 } from "@chakra-ui/react";
 import packageData from "../Data";
 
