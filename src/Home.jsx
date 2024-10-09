@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <Center height="100vh" width="100vw">
-      <Stack w="50vw" spacing={4} p={6}  bg="white" borderRadius="lg">
+      <Stack  w={["100vw", "50vw"]} spacing={4} p={6}  bg="white" borderRadius="lg">
         <HService/>
         <Container>
           {rootTask.map((task) => (
