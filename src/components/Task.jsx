@@ -52,9 +52,9 @@ const Task = ({ task, depth = 0 }) => {
               color="gray.700"
             />
           ) : (
-            <Alert status="error" rounded="md" h="10" bg='red.100'>
-              <AlertIcon />
-              <AlertTitle fontWeight="thin" fontSize="sm">
+            <Alert status="error" rounded="md" h="10" bg='#d3d3d3'>
+              <AlertIcon color='grey' />
+              <AlertTitle fontWeight="thin" fontSize="sm" color='#333333'>
                 Description not found
               </AlertTitle>
             </Alert>
